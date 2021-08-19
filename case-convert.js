@@ -6,7 +6,7 @@ const savedUserName = 'blackPink';
 // console.log(userInput.toLowerCase());
 // console.log(savedUserName.toUpperCase());
 
-if (userInput.toLocaleLowerCase() == savedUserName.toLocaleLowerCase()) {
+if (userInput.toLowerCase() == savedUserName.toLowerCase()) {
     console.log('user exist');
 } else {
     console.log('user do not exist');
